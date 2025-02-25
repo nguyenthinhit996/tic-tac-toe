@@ -1,0 +1,41 @@
+.turn-table-container {
+    .turn-table {
+        background-color: rgba(210, 210, 210, 0.5);
+        width: 400px;
+
+        thead {
+            text-align: center;
+
+            tr td {
+                height: 50px;
+                border: 1px solid black;
+            }
+        }
+
+        tbody {
+            tr {
+                th {
+                    border: 1px solid black;
+                }
+                 td {
+                    img {
+                        height: 150px;
+                        width: 150px;
+                    }
+                }
+            }
+            text-align: center;
+             
+        }
+    }
+
+    .td-brick-red {
+        background-image: url("~/public/assets/img/redBrickBg.jpg");
+    }
+    .td-brick-white {
+        background-image: url("~/public/assets/img/whiteBrickBg.jpg");
+    }
+    .blur {
+        opacity: 0.2;
+    }
+}
